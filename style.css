@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body {
+	background-color: black;
+}
+.container-fluid {
+	background-color: rgb(60, 13, 122);
+}
+.bandeau{
+	width:auto;
+	height:500px;
+	background-image: url("assets/bandeau.png");
+	background-size: contain;
+	color: rgb(233, 227, 227);
+	text-align: center;
+}
+.bandeau p{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.articles{
+	position: relative;
+	position: center;
+}
+.article{
+	width: 22%;
+	margin-right:5px;
+	margin-left: 5px;
+}
+.article img{
+	width:100%;
+}
