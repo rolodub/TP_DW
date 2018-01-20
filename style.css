@@ -6,17 +6,19 @@ body {
 	background-color: rgb(60, 13, 122);
 }
 .bandeau{
-	width:auto;
+	width:100%;
 	height:500px;
 	background-image: url("assets/bandeau.png");
-	background-size: contain;
+	background: cover;
+	
 	color: rgb(233, 227, 227);
 	text-align: center;
 }
-.bandeau p{
-	position: absolute;
-	bottom: 0;
-	right: 0;
+#bandeau_text{
+	position: relative;
+	width:70%;
+	top: 70%;
+	left: 15%;
 }
 .articles{
 	position: relative;
@@ -24,6 +26,7 @@ body {
 }
 .article{
 	width: 22%;
+	margin-top: 20px;
 	margin-right:5px;
 	margin-left: 5px;
 }
